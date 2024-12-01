@@ -31,7 +31,7 @@
 		<div class="mt-8">
 			<ol class="space-y-6">
 				{#each filteredPosts as post, i}
-					<li transition:slide|local>
+					<li transition:slide>
 						<h3>
 							<a
 								class="unstyled font-semibold capitalize text-primary-500"
